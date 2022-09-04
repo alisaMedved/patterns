@@ -72,3 +72,9 @@ function isSuccess(res: IResponseSuccess | IResponseFailed): res is IResponseSuc
         return false;
     }
 }
+
+/**
+ * Guard — это метод TypeScript, используемый для получения информации о типе переменной.
+ * Это обычные функции, которые возвращают логическое значение,
+ * принимают тип и сообщают TypeScript, можно ли его сузить до чего-то более конкретного.
+ */
